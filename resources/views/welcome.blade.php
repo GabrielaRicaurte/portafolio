@@ -14,7 +14,19 @@
         </div>
     </div>
 
-    <div class="md:h-[100vh] flex items-center justify-center p-20">
+    <div class="md:h-[50vh] flex items-center justify-center p-20" id="proyectoDiv">
+        <h1 class="font-dancing text-5xl">Proyectos</h1>
+    </div>
 
+    <div class="md:h-[100vh] flex items-center justify-center p-20">
+        <div class="md:w-[500px]">
+            <h1 class="font-dancing text-4xl">Pokedex</h1>
+            <p class="">Pagina hecha para el consumo de API con JavaScript.</p>
+            <a href="https://gaby-pokedex.netlify.app" class="text-blue-700">https://gaby-pokedex.netlify.app</a>
+        </div>
+
+        <div class="md:w-[500px] p-10">
+            <img src="{{ asset('assets/img/pokedex.png') }}" alt="pokedex img" class="rounded-lg">
+        </div>
     </div>
  @endsection
