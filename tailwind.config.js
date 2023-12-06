@@ -12,10 +12,16 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                beau: [ 'Beau Rivage', 'cursive' ],
+                dancing: [ 'Dancing Script', 'cursive' ],
+                whisper: [ 'Whisper', 'cursive' ]
             },
         },
     },
 
     plugins: [forms],
 };
+
+// font-family: 'Beau Rivage', cursive;
+// font-family: 'Dancing Script', cursive;
+// font-family: 'Whisper', cursive;
