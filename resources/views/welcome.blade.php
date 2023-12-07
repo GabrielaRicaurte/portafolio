@@ -1,7 +1,7 @@
  @extends('layouts.app')
 
  @section('content')
-     <div class="md:h-[100vh] flex flex-wrap items-center justify-center p-20" id="head">
+     <div class="md:h-[100vh] flex flex-wrap items-center justify-center p-20 headline" id="head">
          <div class="md:w-[500px]">
              <h1 class="text-6xl font-dancing">Gabriela D. Ruiz Ruiz</h1>
              <div class="flex flex-col mt-1">
@@ -23,7 +23,7 @@
      <div class="md:h-[100vh] flex items-center justify-center p-20">
          <div class="md:w-[500px]">
              <h1 class="font-dancing text-5xl">Primera Pagina.</h1>
-             <div class="text-black text-xs flex flex-wrap">
+             <div class="text-black text-xs flex flex-wrap my-1">
                 <span class="bg-blue-400 px-3 rounded-full">css</span>
              </div>
              <p class="">Mi primera pagina, hecha solo con html y css.</p>
@@ -37,7 +37,7 @@
      <div class="md:h-[100vh] flex items-center justify-center p-20">
          <div class="md:w-[500px]">
              <h1 class="font-dancing text-5xl">Pokedex.</h1>
-             <div class="flex flex-wrap text-xs gap-x-2 text-black">
+             <div class="flex flex-wrap text-xs gap-x-2 text-black my-1">
                 <span class="bg-yellow-400 px-2 rounded-full">JavaScript</span>
                 <span class="bg-blue-400 px-2 rounded-full">Tailwind</span>
              </div>
@@ -53,7 +53,7 @@
      <div class="md:h-[100vh] flex items-center justify-center p-20">
         <div class="md:w-[500px]">
             <h1 class="font-dancing text-5xl">Cursos de Futbol.</h1>
-            <div class="flex flex-wrap text-xs gap-x-2 text-black">
+            <div class="flex flex-wrap text-xs gap-x-2 text-black my-1">
                 <span class="bg-orange-400 px-2 rounded-full">laravel</span>
                 <span class="bg-pink-400 px-2 rounded-full">bootstrap</span>
             </div>
@@ -62,7 +62,8 @@
         </div>
 
         <div class="md:w-[500px] p-5">
-            <img src="{{ asset('assets/img/pokedex.png') }}" alt="pokedex img" class="rounded-lg">
+            <img src="{{ asset('assets/img/proyecto.png') }}" alt="pokedex img" class="rounded-lg">
         </div>
     </div>
+
  @endsection

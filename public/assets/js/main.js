@@ -1,9 +1,9 @@
-const headScroll = document.querySelector('#head');
-const proyectoDiv = document.querySelector('#proyectoDiv');
+// const headScroll = document.querySelector('#head');
+// const proyectoDiv = document.querySelector('#proyectoDiv');
 
-window.addEventListener('scroll', () => {
-    let value = window.scrollY;
+// window.addEventListener('scroll', () => {
+//     let value = window.scrollY;
 
-    headScroll.style.marginLeft = value * -1.6 + 'px';
-    proyectoDiv.style.marginBottom = value * -0.4 + 'px';
-});
+//     headScroll.style.marginLeft = value * -1.6 + 'px';
+//     proyectoDiv.style.marginBottom = value * -0.4 + 'px';
+// });
