@@ -12,7 +12,16 @@
 </head>
 
 <body class="bg-black text-white">
-    @yield('content')
+
+
+    <div class="flex justify-center">
+        <div class="hidden md:block w-3/12 h-auto"></div>
+        <div class="w-6/12">
+            @include('layouts.nav')
+            @yield('content')
+        </div>
+        <div class="hidden md:block w-3/12 h-auto"></div>
+    </div>
 
 
     {{-- <script src="{{ asset('assets/js/main.js') }}"></script> --}}
