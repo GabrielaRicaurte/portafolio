@@ -8,9 +8,9 @@
     }
 </style>
 
-<div class="flex flex-wrap justify-between items-center font-bold pt-4 ">
+<div class="flex flex-wrap justify-between items-center font-bold pt-4">
     <div class="text-2xl">
-        <h1 class="font-dancing">Gabriela D. Ruiz Ricaurte</h1>
+        <h1 class="">Gabriela D. Ruiz Ricaurte</h1>
     </div>
 
     <div>
@@ -22,4 +22,4 @@
         </ul>
     </div>
 </div>
-<hr class="bg_gradient">
+{{-- <hr class="bg_gradient"> --}}

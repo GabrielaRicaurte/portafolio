@@ -5,17 +5,17 @@
     }
 </style>
 
-<div class="pt-16 flex flex-col items-center">
+<div class="pt-16 flex flex-col items-center px-10">
     <img src="{{ asset('assets/img/me.jpeg')}}" alt="" class="w-44 rounded-full">
 
     <div class="mt-5">
-        <div class="text-center bg-stone-600 rounded-lg p-4">
+        <div class="text-center bg-stone-800 rounded-lg p-4">
             <h1 class="text-lg font-semibold">¡Hola! Soy Gabriela Ruiz, soy desarrolladora Front-End</h1>
         </div>
     </div>
     <div class="mt-5">
-        <p class="text-xl font-bold py-2 underline">Sobre Mi</p>
-        <p class="font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id at ut sequi libero neque numquam blanditiis, voluptas ad tenetur rerum enim sed, nulla labore tempore. Consequuntur ex laborum veritatis ratione quasi quas nostrum illum! Adipisci error ea assumenda officiis, non tempore, voluptate, qui totam odit ut neque eligendi aliquam voluptatem!</p>
+        <p class="text-2xl font-bold py-2 underline">Sobre Mi</p>
+        <p class="font-semibold text-stone-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id at ut sequi libero neque numquam blanditiis, voluptas ad tenetur rerum enim sed, nulla labore tempore. Consequuntur ex laborum veritatis ratione quasi quas nostrum illum! Adipisci error ea assumenda officiis, non tempore, voluptate, qui totam odit ut neque eligendi aliquam voluptatem!</p>
 
         {{-- <div class="flex gap-x-4 mt-5">
             <i class="fa-solid fa-music"></i>
